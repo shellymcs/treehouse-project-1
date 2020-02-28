@@ -70,8 +70,9 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px outset turquoise;
+  border: 5px outset blue;
   transition: all .5s;
+  
 }
 header .profile-image:hover {
   transform: scale(1.5) rotate(180deg);
@@ -87,12 +88,15 @@ header .profile-image:hover {
 
 .tag-name {
   font-family: 'Courgette';
-  color: turquoise;
+  color:white;
+  
+  
 }
 .tag-location {
   font-family: 'Courgette';
   color: blue;
   background-color: cornsilk ;
+  border-radius: 8px;
   width: 250px;
   text-align: center;
   display: inline-block;
@@ -129,6 +133,16 @@ header .profile-image:hover {
   border: 4px solid aquamarine;
   border-radius: 15px;
   transition: all .5s;
+}
+
+.work-image {
+  width: 500px;
+  margin: 30px;
+  background: #fff;
+  border: 4px solid aquamarine;
+  border-radius: 15px;
+  transition: all .5s;
+
 }
 
 .background {
